@@ -3,7 +3,7 @@
     padding: 0;
 }
 .box{
-   height: 1000px;
+   height: 900px;
     position: relative;
     /*border-top: 1px solid #eee;*/
     /*width: 100%;*/
@@ -193,9 +193,7 @@
     width: 30px;
     height: 35px;
 }
-.centent-right-7 i{
 
-}
 .centent-right-7 input{
     width: 80px;
     height: 31px;
@@ -243,7 +241,90 @@ select{
     padding:5px 0;
 }
 .outer{
-    width:500px;
+    width:300px;
     margin:20px auto;
+    background: #fff;
+    height: 100px;
     display: none;
+    z-index: 999;
+    position: absolute;
+    top:240px;
+    left: 70px;
+}
+.collect1 .collect1-1 {
+   position: relative;
+   top: 770px;
+   left: 100px;
+}
+.collect1-2{
+    position: relative;
+    top: 731px;
+    left: 155px;
+}
+.collect1-1 p.iconfont, .collect1-2 p.iconfont {
+    color: #ccc;
+}
+.collect1-1 h6{
+   color: #ccc;
+   margin-top: 10px;
+}
+.collect1-2 h6{
+    color: #ccc;
+    margin-top: 5px;
+ }
+ .title{
+     width: 100%;
+     height: 50px;
+     background: #eee;
+     line-height: 50px;
+ }
+ .title a{
+     text-decoration: none;
+     color: #000;
+     width: 65px;
+     height: 50px;
+     line-height: 50px;
+     border-bottom: 3px solid #000;
+     display: inline-block;
+ }
+.main{
+    margin-top: 30px;
+}
+ .centent-bottom{
+     margin-top: 50px;
+     height: 420px;
+ }
+ .centent-bottom ul{
+     width: 100%;
+     height: 313px;
+     border: 1px solid #ccc;
+     margin-top: 20px;
+     
+ }
+ .centent-bottom ul li{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background: #fff;
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.centent-bottom img{
+    width: 90%;
+    height: 75%;
+}
+.centent-bottom img:hover{
+    box-shadow: 0 1px 10px 5px #ccc;
+    transition: all .5s;
+}
+.centent-bottom p {
+    color: #aaa;
+    font-size: 14px;
+}
+.centent-bottom h6{
+    color: red;
+    font-size: 12px;
+    margin-top: 20px;
 }
