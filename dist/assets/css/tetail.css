@@ -251,6 +251,11 @@ select{
     top:240px;
     left: 70px;
 }
+.collect1-1 p{
+    width: 30px;
+    height: 30px;
+    background: red;
+}
 .collect1 .collect1-1 {
    position: relative;
    top: 770px;

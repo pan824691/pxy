@@ -5,7 +5,7 @@ $.ajax({
     url:"../assets/json/shouji00.json",
     dataType:"json",
     success:function (res) {
-        console.log(res)
+        // console.log(res)
         var data = res.result;  //获取客户端数据返回的结果
         list = data
         // console.log(data)
@@ -97,3 +97,15 @@ function getItem(key) {
 function setItem(key,value) {
     localStorage.setItem(key,JSON.stringify(value))
 }
+
+
+var $leftBtn = $('.leftBtn');
+var $rightBtn = $('.rightBtn');
+var $column = $('.column');
+$rightBtn.click(function(){
+   $column.animate({'left':'-500px'});
+})
+$leftBtn.click(function(){
+   $column.animate({'left':'500px'});
+})
+

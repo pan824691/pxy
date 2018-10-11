@@ -13,12 +13,15 @@ $('#header').load('header.html',function () {
 $('#nav').find('li').mouseenter(function () {
     $(this).find('.item').fadeIn();
     $(this).siblings('li').find('.item').fadeOut();
+    $(this).find('.joinus').fadeIn();
+    
 })
     $('#nav').mouseleave(function () {
         $(this).find('.item').fadeOut();
         $(this).find('.item').stop(true,true)
+        $(this).find('.joinus').fadeOut();
+        $(this).find('.joinus').stop(true,true);
     })
-
 })
 
 $('#footer').load('footer.html')
