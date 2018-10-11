@@ -1,0 +1,134 @@
+#test{
+    width: 100%;
+    padding: 10px;
+    height: 1860px;
+    /*border: 1px solid gainsboro;*/
+    border-radius: 8px;
+
+}
+.inner {
+    display: block;
+   padding: 10px;
+    /*border: 1px solid gainsboro;*/
+    text-align: center;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    /*border-radius: 8px;*/
+    float: left;
+    width: 22%;
+    height: 340px;
+    background: #fff;
+}
+.inner:hover{
+    box-shadow: 0 1px 10px 5px #ccc;
+    transition: all .5s;
+}
+
+.inner:hover h3{
+    color: deeppink;
+}
+.inner img {
+    width:233px;
+    height:255px;
+    font-size: 0;
+
+}
+.inner h3{
+  font-weight: normal;
+
+    font-size: 14px;
+}
+.inner h6 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: red;
+}
+.inner button {
+    border: none;
+    background: blanchedalmond;
+    margin-left: 180px;
+    margin-top: 3px;
+    width: 85px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+*{
+    padding: 0;margin: 0;
+}
+.centent{
+    width: 100%;
+    height: 2680px;
+    overflow: hidden;
+    background: #f8f8f8;
+    /*top:30px;*/
+}
+.centent-1{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    line-height: 50px;
+}
+.centent-tetail{
+    width: 100%;
+    background: #fff;
+    height: 120px;
+    line-height: 50px;
+}
+.centent-tetail ul, .centent-tetail ol{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.centent-tetail ul a, .centent-tetail ol a, .centent-2 a{
+    color: #000;
+}
+.centent-tetail ul a:hover, .centent-tetail ol a:hover, .centent-2 a:hover{
+    color: deepskyblue;
+}
+.centent-tetail ul li, .centent-tetail ol li, .centent-2 li{
+    float: left;
+    margin-right: 40px;
+}
+
+.centent-2 {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    color: #aaaaaa;
+}
+.centent-2 button{
+    margin-left: 20px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    background: beige;
+    color: blue;
+    border-radius: 10px;
+}
+.centent-bottom ul li{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background: #fff;
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.centent-bottom img{
+    width: 90%;
+    height: 75%;
+}
+.centent-bottom img:hover{
+    box-shadow: 0 1px 10px 5px #ccc;
+    transition: all .5s;
+}
+.centent-bottom p {
+    color: #aaa;
+    font-size: 14px;
+}
+.centent-bottom h6{
+    color: red;
+    font-size: 12px;
+    margin-top: 20px;
+}

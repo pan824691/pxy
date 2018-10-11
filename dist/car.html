@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/car.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+   <div class="catr">
+       <div class="min">
+           <a href="index.html"><img src="../assets/img/ppppppp.png"></a>
+           <sapn>购物车&nbsp;>&nbsp;订单确认&nbsp;>在线支付&nbsp;>完成</sapn>
+       </div>
+   </div>
+   <div class="cart min">
+       <table id="tb" border="1" class="table"></table>
+       <!--<input type="checkbox"/>-->
+       <p>总数：<span id="totalNum"></span></p>
+       <p>总价：<span id="totalPrice"></span></p>
+       <button id="btn" class="btn btn-success" onclick = "sbmitOrder()">去支付</button>
+   </div>
+
+
+   <div id="footer">
+       <!--这是底部-->
+   </div>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="/assets/js/cat.js"></script>
+</html>

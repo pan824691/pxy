@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+   height: 1000px;
+    position: relative;
+    /*border-top: 1px solid #eee;*/
+    /*width: 100%;*/
+}
+.centent-left{
+    width: 50%;
+    height: 700px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    /*margin-top: 100px;*/
+}
+.max-img{
+    width: 100%;
+    height: 510px;
+    overflow: hidden;
+}
+.max-img img{
+    width: 100%;
+    height: 570px;
+}
+.small-img{
+    width: 100%;
+    height: 130px;
+}
+.small-img img{
+    width: 24%;
+    height: 100%;
+}
+.centent-right{
+    width: 50%;
+    height: 700px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 640px;
+}
+.centent-right h1{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.centent-right p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+.centent-right-1{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: red;
+    opacity: 0.4;
+    color: #fff;
+    margin-top: 10px;
+}
+.centent-right-1 span{
+   margin-left: 10px;
+
+}
+.centent-right-1 b{
+  font-weight: normal;
+    float: right;
+    font-size: 12px;
+   margin-right: 10px;
+}
+.centent-right-2{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #f5f6fa;
+    opacity: 0.4;
+    color: #d1314d;
+}
+.centent-right-2 i{
+    font-style: normal;
+    margin-left: 10px;
+}
+.centent-right-2 span{
+    font-size: 28px;
+}
+.centent-right-2 b{
+    font-weight: normal;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: line-through;
+}
+.centent-right-3, .centent-right-4{
+    margin-top: 10px;
+}
+.centent-right-3 span, .centent-right-4 span{
+    font-size: 12px;
+    color: #ccc;
+    margin-left: 10px;
+
+}
+.centent-right-3 em, .centent-right-3 i{
+    margin-left: 10px;
+}
+.centent-right-4{
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px dashed #ccc;
+}
+.centent-right-4 i{
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.centent-right-4 p{
+    font-size: 12px;
+    color: #ccc;
+    margin-left:73px;
+}
+.centent-right-4 p a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+.centent-right-4 p span.iconfont{
+    color:lightskyblue ;
+}
+.centent-right-4 span.iconfont{
+    color: #000;
+    font-size: 22px;
+}
+.centent-right-5{
+    margin-top: 20px;
+}
+.centent-right-5 span{
+   font-size: 12px;
+    color: #ccc;
+    margin-left: 10px;
+}
+.centent-right-5 a{
+    width: 160px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #000;
+}
+.centent-right-6{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+    line-height: 50px;
+
+}
+.centent-right-6 p{
+    font-size: 12px;
+}
+.centent-right-6 p span{
+    width: 160px;
+    height: 40px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin-left: 11px;
+    text-align: center;
+    line-height: 40px;
+}
+.centent-right-6 p em{
+    font-style: normal;
+}
+.centent-right-6 p i{
+    color: #000;
+    font-style: normal;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.centent-right-6 p img{
+    width: 30px;
+    height: 30px;
+}
+.centent-right-7{
+    margin-top: 20px;
+}
+.centent-right-7 span{
+    color: #ccc;
+    font-size: 12px;
+    margin-left:10px;
+}
+.centent-right-7 button{
+    width: 30px;
+    height: 35px;
+}
+.centent-right-7 i{
+
+}
+.centent-right-7 input{
+    width: 80px;
+    height: 31px;
+    text-align: center;
+    /*border: none;*/
+}
+.centent-right-8 {
+    margin-top: 60px;
+}
+.centent-right-8 i{
+    width: 214px;
+    height: 55px;
+    background: deepskyblue;
+    border-radius: 5px;
+    display: inline-block;
+}
+.centent-right-8 button{
+    margin-left: 10px;
+    width: 200px;
+    height: 55px;
+    background: deepskyblue;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+}
+.centent-right-8 input{
+    margin-left: 10px;
+    width: 200px;
+    height: 55px;
+    background: rgba(155,155,155,0);
+    border: none;
+    font-size: 22px;
+    color: deepskyblue;
+}
+.centent-right-8 span{
+    width: 214px;
+    height: 55px;
+    border: 1px solid deepskyblue;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+select{
+    padding:5px 0;
+}
+.outer{
+    width:500px;
+    margin:20px auto;
+    display: none;
+}
