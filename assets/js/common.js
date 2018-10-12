@@ -40,9 +40,9 @@ $('#footer').load('footer.html',function(){
         var bool = false;  // 初始值为不动
         var $top = document.querySelector('.top')
         
-        $(".iconfont").on("click",clickHandler); //创建div，添加点击事件
+        $(".li3").on("click",clickHandler); //创建div，添加点击事件
         function clickHandler(e) {
-            console.log("aa")
+            // console.log("aa")
             bool = !bool;  //点就动不点就不动
         }
         animation()

@@ -254,7 +254,7 @@ select{
 .collect1-1 p{
     width: 30px;
     height: 30px;
-    background: red;
+    /* background: red; */
 }
 .collect1 .collect1-1 {
    position: relative;
@@ -332,4 +332,8 @@ select{
     color: red;
     font-size: 12px;
     margin-top: 20px;
+}
+
+.collect1-1 i.iconfont{
+    color: yellow;
 }
