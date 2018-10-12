@@ -39,7 +39,7 @@ function renderDOM () {
 
     } else {
         // 购物车没有数据
-        $('#tb').append('<tr><td colspan="6">购物车空空如也，<a href="index.html">去购物</a></td></tr>')
+        $('#tb').append('<tr><td colspan="6">购物车空空如也，<a href="http://localhost:8080/index%20.html">去购物</a></td></tr>')
         // countFn()// 遍历结束之后计算总数与总价  ----  选择结束之后调用
     }
 }

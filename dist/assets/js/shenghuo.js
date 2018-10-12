@@ -15,7 +15,7 @@ function renderDOM(data) {
     var str = '';
     $.each(data,function (i,obj) {
         str += '<div class="inner">';
-        str += '<img src="'+obj.imgUrl+'"/>';
+        str += '<span class="duibi"><em class="iconfont">&#xe674;</em><i>对比</i></span><img src="'+obj.imgUrl+'"/>';
         str += '<h3>'+obj.name+'</h3>';
         str += '<h6>'+'￥'+obj.price+'</h6>';
         str += '<button onclick="getInfo('+i+')">加入购物车</button>';
@@ -89,4 +89,5 @@ function getItem(key) {
 function setItem(key,value) {
     localStorage.setItem(key,JSON.stringify(value))
 }
+
 

@@ -274,20 +274,92 @@
 
 .footer-div span {
     float: right;
-
     width: 160px;
     height: 22px;
 }
+.footer-div span a{
+    text-decoration:noaml;
+    color: #ccc;
+    font-size: 24px;
+}
 
-.footer-div span img {
+.footer-div span b, .footer-div span em, .footer-div span i {
     float: left;
-    width: 22px;
+    width: 30px;
     height: 22px;
     text-align: center;
     margin-left: 18px;
+    font-size:26px;
     /*border-right: 1px solid #ccc;*/
 }
-
-.footer-div span img:hover {
+.footer-div span .img1:hover i.iconfont{
+    color: red;
+}
+.footer-div span .img2:hover b.iconfont{
+    color: greenyellow;
+}
+.footer-div span .img3:hover em.iconfont{
+    color: yellow;
+}
+.car i{
+    width: 11px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
     background: red;
+    border-radius: 50%;
+    color: #fff;
+    font-style: normal;
+    display: inline-block;
+    position: absolute;
+    top:38px;
+    right:304px;
+    font-size: 10px;
+    
+}
+
+
+
+.top{
+    width: 80px;
+    height: 100px;
+    /* background: #ccc; */
+    position: fixed;
+    bottom:70px;
+    right: 55px;
+    /* color: #fff; */
+    text-align: center;
+    line-height: 50px;
+    display: none;
+}
+.top li{
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    color: #fff;
+    margin-top: 2px;
+}
+.top li img{
+    width: 35px;
+    height: 35px;
+    margin-top:5px;
+}
+.top li.iconfont{
+    font-size: 30px;
+}
+.top i{
+    width: 11px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    font-style: normal;
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    right:37px;
+    font-size: 10px;
+    
 }

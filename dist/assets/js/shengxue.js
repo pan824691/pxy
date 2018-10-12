@@ -2,7 +2,7 @@ var list = []  //定义了一个空数组
 // 渲染图片
 $.ajax({
     type:"GET",
-    url:"../assets/json/tetail.json",
+    url:"../assets/json/shouji.json",
     dataType:"json",
     success:function (res) {
         console.log(res)
@@ -46,7 +46,7 @@ function  renderDOM(data) {
     var str = '';
     $.each(data,function (i,obj) {
         str += '<div class="inner">';
-        str += '<img src="'+obj.imgUrl+'"/>';
+        str += '<span class="duibi"><em class="iconfont">&#xe674;</em><i>对比</i></span><img src="'+obj.imgUrl+'"/>';
         str += '<h3>'+obj.name+'</h3>';
         str += '<h6>'+'$'+obj.price+'</h6>';
         // console.log(obj.price)
@@ -97,3 +97,5 @@ function getItem(key) {
 function setItem(key,value) {
     localStorage.setItem(key,JSON.stringify(value))
 }
+
+

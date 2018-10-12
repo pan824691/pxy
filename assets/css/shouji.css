@@ -110,6 +110,8 @@
     height: 1500px;
     /*border: 1px solid gainsboro;*/
     border-radius: 8px;
+    position: relative;
+    /* overflow: hidden; */
 
 }
 .inner {
@@ -124,10 +126,15 @@
     width: 22%;
     height: 340px;
     background: #fff;
+    /* overflow: hidden; */
 }
 .inner:hover{
     box-shadow: 0 1px 10px 5px #ccc;
     transition: all .5s;
+    
+}
+.inner:hover .duibi{
+    display: block;
 }
 .inner:hover h3{
     color: deeppink;
@@ -135,7 +142,7 @@
 }
 .inner img {
     width:233px;
-    height:255px;
+    height:250px;
     font-size: 0;
 
 }
@@ -158,3 +165,30 @@
     height: 30px;
     border-radius: 10px;
 }
+.duibi{
+    width: 43px;
+    height: 30px;
+    position: absolute;
+    /* margin-left: -20px; */
+    margin-top: 10px;
+    display: none;
+    /* top: 200px;
+    left: 30px; */
+}
+.duibi i{
+   font-style: normal;
+   float: right;
+   font-size: 12px;
+}
+.duibi em{
+    font-style: normal;
+    float: left;
+ }
+
+ .duibi em.iconfont{
+    color:deepskyblue;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+

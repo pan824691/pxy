@@ -46,14 +46,27 @@ function  renderDOM(data) {
     var str = '';
     $.each(data,function (i,obj) {
         str += '<div class="inner">';
-        str += '<img src="'+obj.imgUrl+'"/>';
+        str += '<span class="duibi"><em class="iconfont">&#xe674;</em><i>对比</i></span><img src="'+obj.imgUrl+'"/>';
         str += '<h3>'+obj.name+'</h3>';
         str += '<h6>'+'$'+obj.price+'</h6>';
+      
         // console.log(obj.price)
         str += '<button onclick="getInfo('+i+')">加入购物车</button>'
         str += '</div>'
     })
-    $('#test').append(str)
+    
+    $('#test').append(str);
+    // var index = 0;
+    // $('#test').find('div').mouseenter(function(){
+    //     // $('#test').find('.duibi').eq(index).fadeIn();
+    //     $('#test').find('.duibi').fadeIn();
+    //     $(this).siblings('div').find('.duibi').fadeOut();
+    // })
+    // $('#test').find('div').mouseleave(function(){
+    //     $('#test').find('.duibi').fadeOut();
+    //     $(this).find('.duibi').stop(true,true)
+    // })
+
 }
 // 点击加入购物车按钮函数
 function getInfo(index) {  // 本来传了两个参数，改成一个参数了。
@@ -99,6 +112,19 @@ function setItem(key,value) {
 }
 
 
+// var $test = document.querySelector('#test')
+// var $inner = $test.querySelector(str)
+// console.log($inner)
+
+
+
+// var $test = $('#test');
+// var $inner = $('.inner');
+// $('.inner').mouseenter(function(){
+//     console.log('aaa')
+// })
+
+// 广告栏滚动
 var $leftBtn = $('.leftBtn');
 var $rightBtn = $('.rightBtn');
 var $column = $('.column');
@@ -108,4 +134,6 @@ $rightBtn.click(function(){
 $leftBtn.click(function(){
    $column.animate({'left':'500px'});
 })
+
+
 
