@@ -4,7 +4,7 @@ $('#header').load('header.html',function () {
        $(this).find('.hoverShowSon').find('ul').fadeIn()  // 当前li对应的右侧内容显示
 })
     $('.nav-right').mouseleave(function () { // 移出菜单时，将右侧的内容全部消失
-        $(this).find('.hoverShowSon').find('ul').fadeOut();
+        $(this).find('ul').fadeOut();
         $(this).find('.hoverShowSon').find('ul').stop(true,true)
 })
 

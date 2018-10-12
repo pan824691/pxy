@@ -34,10 +34,18 @@ $select[$select.length-1].onchange = function(){
 
 // 点击收藏效果
 var $collect_p = $('.collect_p');
+var flag = true;
 $collect_p.click(function () {
-    $collect_p.toggleClass('.p')
+    if(flag){
+        $(this).css('color','red')
+        flag = false;
+    }else{
+        $(this).css('color','#ccc')
+        flag = true;
+    }
+  
+//   $(this).toggleClass('on').css('color','red');
 })
-
 
 
 // 数量加减函数
