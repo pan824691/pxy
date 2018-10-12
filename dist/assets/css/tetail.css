@@ -265,9 +265,6 @@ select{
 .collect1-1 p.iconfont, .collect1-2 p.iconfont {
     color: #ccc;
 }
-.collect1-1 p.iconfont, .collect1-2 p.iconfont .on{
-    color: #ccc;
-}
 .collect1-1 h6{
    color: #ccc;
    margin-top: 10px;

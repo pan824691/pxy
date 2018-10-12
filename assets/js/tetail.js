@@ -37,14 +37,13 @@ var $collect_p = $('.collect_p');
 var flag = true;
 $collect_p.click(function () {
     if(flag){
-        $(this).css('color','red')
+        $(this).css('color','sandybrown')
         flag = false;
     }else{
         $(this).css('color','#ccc')
         flag = true;
     }
   
-//   $(this).toggleClass('on').css('color','red');
 })
 
 

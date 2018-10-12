@@ -95,3 +95,8 @@ $(function(){
         })
     })
 })
+
+// 下拉菜单
+$('.selectBox').find('i').on('click',function(){
+   $('.container').show()
+})
