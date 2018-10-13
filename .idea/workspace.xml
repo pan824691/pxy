@@ -2,614 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe47c13-37d0-453b-b422-3dbd31b1a7b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/shengxue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/11_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/max.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic61.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/php/register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/sm1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/tetail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic58.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/66.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/39.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic58.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/json/nav.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/wx-code_94c130c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/zhineng.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/json/shouji00.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/login-donw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/max.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/65.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/zhineng1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/w100h100 (2).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/54.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/shouji.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/check_username.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/iconfont/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/download.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/58.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/car.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic59.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic56.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/publi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/usertent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/ajax1.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/51.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/tetail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/json/shenghuo.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/json/zhineng.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic63.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/demo_symbol.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/iconfont/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/11_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jQueryProvinces/jquery插件库.url" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/zhineng.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/59.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/shouji.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/61.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/login.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/gr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/39.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/qrcode-3389e5b72a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic57.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/wx-code_94c130c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/iconfont.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/zhineng.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/car.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/js/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/iconfont/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/login.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/61.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/63.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/demo_fontclass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/52.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/55.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/usertent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/tetail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/loglo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/iconfont/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/zhineng.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/47.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/json/shouji.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/sm3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/json/shenghuo.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jQueryProvinces/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/sm3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/w100h100 (1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pxy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic62.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/51.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/53.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/js/area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/login-donw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/shenghuo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/57.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/zhineng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/car.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/54.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/shengxue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/zhineng1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/w100h100 (2).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/zhineng.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic53.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jQueryProvinces/www.jq22.com.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/53.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jQueryProvinces/js/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic56.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic57.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jQueryProvinces/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/shouji.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/download.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/55.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/sm2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/shenghuo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/php/check_username.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/w100h100 (3).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/iconfont/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/json/shouji.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/11_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/ajax1.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/nav1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/62.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/64.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/ppppppp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jQueryProvinces/js/area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/iconfont/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/新建文件夹/ajax1.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index - 副本.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/json/nav.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/47.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/iconfont/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic55.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/64.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/59.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/shengxue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/iconfont/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/cat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic59.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/usertent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/tetail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/w100h100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/shenghuo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/css/shengxue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/新建文件夹/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/json/shouji00.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic54.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/sm4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/w100h100 (3).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/iconfont/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/js/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/shouji.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/11_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/shouji.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic63.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/zhineng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/sm1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/php/public/connect_db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/63.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/login1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/tetail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/sm5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/xiangqing/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index .html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/56.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/car.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/iconfont/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/11_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/41.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/shengxue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic54.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index .html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/tetail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/wx-code_94c130c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/php/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/iconfont/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/json/tetail00.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/wx-code_94c130c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/w100h100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/shengxue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/57.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/cat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/js/area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/sm5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic53.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/car.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/11_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/detail/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic61.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic62.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/login1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/62.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/loglo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic55.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/detail/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/41.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/nav1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/w100h100 (1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/js/ajax1.0.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/58.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/json/tetail.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/shengxue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/65.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/iconfont/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/tetail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/font_736066_fe0o2thngq/demo_unicode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/ppppppp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/public/connect_db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/gr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/json/zhineng.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/qrcode-3389e5b72a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/56.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/shenghuo/0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/52.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/66.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/zhineng/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/shenghuo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/sm4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/category/49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/pic12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/shenghuo/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/category/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/xiangqing/sm2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pic31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/shouji.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/zhineng/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/car.css" afterPath="$PROJECT_DIR$/assets/css/car.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/common.css" afterPath="$PROJECT_DIR$/assets/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/cat.js" afterPath="$PROJECT_DIR$/assets/js/cat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/login.js" afterPath="$PROJECT_DIR$/assets/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/register.js" afterPath="$PROJECT_DIR$/assets/js/register.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/car.html" afterPath="$PROJECT_DIR$/views/car.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -627,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/views/index .html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -692,6 +90,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -703,14 +103,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../case/dist" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -742,26 +140,28 @@
       <workItem from="1539230411256" duration="241000" />
       <workItem from="1539231115185" duration="27000" />
       <workItem from="1539231294805" duration="22000" />
+      <workItem from="1539421036737" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290000" />
+    <option name="totallyTimeSpent" value="301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -782,6 +182,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/index .html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index .html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -817,7 +233,7 @@
     <entry file="file://$PROJECT_DIR$/views/index .html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
       </provider>

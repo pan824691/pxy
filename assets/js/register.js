@@ -22,7 +22,7 @@ var register = (function(){
                         _this.register(data);
                     }
                 }
-                ajax('http://localhost:1212/pro/dist/assets/php/register.php', params);
+                ajax('http://localhost:1212/pxy/dist/assets/php/register.php', params);
             },
                 // 判断用户名称是否存在
                 this.$usernameInp. addEventListener('change', function(){
@@ -36,7 +36,7 @@ var register = (function(){
                             _this.checkUsername(data);
                         }
                     }
-                    ajax ('http://localhost:1212/pro/dist/assets/php/check_username.php', params);
+                    ajax ('http://localhost:1212/pxy/dist/assets/php/register.php', params);
                 }, false);
                
         },

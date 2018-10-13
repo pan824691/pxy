@@ -45,6 +45,9 @@ function renderDOM () {
 }
 // 提交订单
 function sbmitOrder() {
+ 
+    var $order = document.querySelector('.two-dimension')
+    $order.style.display = 'block';
     var cartListStr = getItem('pxyCart')
     var cartList = JSON.parse(cartListStr);
     var arr = [];
@@ -54,7 +57,8 @@ function sbmitOrder() {
         }
     })
     setItem('pxyCart',arr)
-    window.location.href = "order.html"
+   
+    // window.location.href = "order.html"
 }
 function selectFn () {
     // 第一次进入默认是全部选中，并且计算
@@ -132,8 +136,6 @@ function changeNum (event, index) {
 }
 
 function countFn(){
-    // var cartListStr = getItem('1805cart') // 得到购物车数据的字符串
-    // var cartList = JSON.parse(cartListStr); // 得到购物车数据的数组
     var selectListStr = getItem('selectlist')
     var selectList = JSON.parse(selectListStr);
     var totalNum = 0;
@@ -176,3 +178,49 @@ function removeItem (key){
 function setItem (key, value){
     localStorage.setItem(key, JSON.stringify(value))
 }
+
+
+function closePopup(){
+    var $order = document.querySelector('.two-dimension')
+    var $span = $order.querySelector('.iconfont');
+    console.log($span)
+    $span.onclick = function(e){
+        $order.style.display = 'none';
+    }
+}
+closePopup()
+
+
+function judgeName(){
+    var $small = document.querySelector('.loginName');
+    var url = location.search.slice(1);// 获取地址栏问号后面的内容
+    function getParams(url){
+        var obj = {};
+        url = url.split("&");
+        for(var i = 0; i < url.length; i++){
+            var arr = url[i].split('=');
+            obj[arr[0]] = arr[1];  // 中括号0是属性，中括号1是属性值
+        }
+        return obj;
+    }
+    var obj = getParams(url);
+
+    if(obj.username){  // 判断用户名是否存在    
+     
+        $small.innerHTML = obj.username;
+        $('#boxSpan').find('.registerName').hide();
+        
+    } else{
+     
+      $('.loginName').fadeIn();//登陆内容显示
+      $('#boxSpan').find('.registerName').show();
+    }
+}
+
+judgeName()
+
+
+
+
+    
+      

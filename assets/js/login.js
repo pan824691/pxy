@@ -26,7 +26,7 @@ var login = (function(){
                         _this.loginSuccess(data);
                     }
                 }
-                ajax('http://localhost:1212/pro/dist/assets/php/login.php', params);
+                ajax('http://localhost:1212/pxy/dist/assets/php/login.php', params);
             }
         },
         loginSuccess: function(data) {
@@ -37,7 +37,7 @@ var login = (function(){
                 document.cookie = "token=" + data.data.token;
                 document.cookie = "user-id=" + data.data.id;
                 
-                location.href = 'usertent.html';
+                location.href = 'http://localhost:8080/car.html?username='+this.$usernameInp.value;
             } else {
                 alert(data.msg);
             }
