@@ -108,9 +108,24 @@
     color: blue;
     border-radius: 10px;
 }
+.centent-bottom{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.centent-bottom ul{
+    width:2222px;
+    height: 310px;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
 .centent-bottom ul li{
     float: left;
-    width: 20%;
+    width: 250px;
     height: 300px;
     background: #fff;
     /*margin-left: 10px;*/
@@ -119,12 +134,34 @@
     overflow: hidden;
 }
 .centent-bottom img{
-    width: 90%;
+    width: 85%;
     height: 75%;
 }
-.centent-bottom img:hover{
-    box-shadow: 0 1px 10px 5px #ccc;
+.all{
+    width: 85%;
+    height: 75%;
+}
+.centent-bottom .all:hover img{
+    /* box-shadow: 0 1px 10px 5px #ccc; */
     transition: all .5s;
+    width: 90%;
+    height:80%;
+    
+}
+.centent-bottom i, .centent-bottom b{
+    float: right;
+    width: 30px;
+    height: 30px;
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    margin-left: 5px;
+}
+.centent-bottom button{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background: #f8f8f8;
+    color: deepskyblue;
 }
 .centent-bottom p {
     color: #aaa;

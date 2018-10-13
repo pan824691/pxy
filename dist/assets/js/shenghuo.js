@@ -91,3 +91,13 @@ function setItem(key,value) {
 }
 
 
+// 广告栏滚动
+var $leftBtn = $('.leftBtn');
+var $rightBtn = $('.rightBtn');
+var $column = $('.column');
+$rightBtn.click(function(){
+   $column.animate({'left':'-500px'});
+})
+$leftBtn.click(function(){
+   $column.animate({'left':'500px'});
+})

@@ -90,10 +90,25 @@
     text-align: center;
     overflow: hidden;
 }
-.centent-bottom img{
+/* .centent-bottom img{
     width: 70%;
     height: 60%;
     margin-top: 10px;
+} */
+.centent-bottom img{
+    width: 85%;
+    height: 75%;
+}
+.all{
+    width: 85%;
+    height: 75%;
+}
+.centent-bottom .all:hover img{
+    /* box-shadow: 0 1px 10px 5px #ccc; */
+    transition: all .5s;
+    width: 90%;
+    height:80%;
+    
 }
 .centent-bottom p{
     margin-top: 10px;

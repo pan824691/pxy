@@ -4,7 +4,6 @@ var register = (function(){
 
             this.$ele = document.querySelector(ele);
             this.$loginBtn = this.$ele['login-btn'];
-            console.log(this.$loginBtn)
             this.$usernameInp =   this.$ele['username'];
             this.$passwordInp =   this.$ele['password'];
             this.event();
@@ -97,6 +96,25 @@ $(function(){
 })
 
 // 下拉菜单
+var $inpcycode = $('.inp-cycode')
+
+var $container = $('.container');
+var $bAll = $container.find('ul').find('li').find('b');
 $('.selectBox').find('i').on('click',function(){
    $('.container').show()
 })
+$('.container').find('ul').find('li').on('click',function(){
+   console.log('进来了')
+    var str = '';
+    for(var k = 0; k < $bAll.length; k++){
+       str += $bAll[k].value;
+    }
+    $inpcycode.innerHTML = str;
+    $container.hide();
+})
+
+
+
+
+
+

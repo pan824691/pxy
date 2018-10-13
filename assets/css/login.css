@@ -199,12 +199,13 @@
 }
 .outer{
     position: relative;
-    margin:20px 34px;
-    width: 375px;
+    margin:20px 36px;
+    width: 372px;
     height: 30px;
     line-height: 28px;
     border:1px solid #ccc;
     background: #ccc9c9;
+   
     z-index: 1;
 }
 .outer span,.filter-box,.inner{
@@ -237,7 +238,7 @@
     background: #fff;
     cursor: pointer;
     font-family: "宋体";
-    z-index: 1;
+    z-index:1;
     font-weight: bold;
     color: #929292;
 }
@@ -286,7 +287,7 @@
     font-size: 14px;
  
 }
-.login-pxy span{
+.selectBox span{
     width: 70px;
     height: 50px;
     border-right: 1px solid #eeeeee;
@@ -313,6 +314,7 @@
     background:#fff;
     overflow:auto;
     font-size: 14px;
+    position: absolute;
     z-index: 999;
     border: 1px solid #eee;
     margin-top: 2px;
@@ -321,9 +323,18 @@
 }
 .head{
     margin-left: 10px;
+   
 }
-.container ul{
+
+.container ul li span{
     margin-left: 10px;
+}
+.container ul li{
+    height: 35px;
+    line-height: 35px;
+}
+.container ul li:hover{
+   background: #eee;
 }
 .container b{
     font-weight:400;
