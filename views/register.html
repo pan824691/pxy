@@ -35,36 +35,36 @@
                 </div>
                 <div class="container">
                     <div class="head"><span>常用</span></div>
-                    <ul>
+                    <ul id="ulBox">
                         <li>
-                            <span>中国</span><b>+86</b>
+                            <span>中国</span><b class="b">+86</b>
                         </li>
                         <li>
-                            <span>中国香港</span><b>+852</b>
+                            <span>中国香港</span><b class="b">+852</b>
                         </li>
                         <li>
-                            <span>中国台湾</span><b>+886</b>
+                            <span>中国台湾</span><b class="b">+886</b>
                         </li>
                         <li>
-                            <span>中国澳门</span><b>+822</b>
+                            <span>中国澳门</span><b class="b">+822</b>
                         </li>
                         <li>
-                            <span>paa</span><b>+122</b>
+                            <span>paa</span><b class="b">+222</b>
                         </li>
                         <li>
-                            <span>paa</span><b>+122</b>
+                            <span>paa</span><b class="b">+132</b>
                         </li>
                         <li>
-                            <span>paa</span><b>+122</b>
+                            <span>paa</span><b class="b">+142</b>
                         </li>
                         <li>
-                            <span>paa</span><b>+122</b>
+                            <span>paa</span><b class="b">+156</b>
                         </li>
                         <li>
-                            <span>paa</span><b>+122</b>
+                            <span>paa</span><b class="b">+432</b>
                         </li>
                         <li>
-                            <span>paa</span><b>+122</b>
+                            <span>paa</span><b class="b">+565</b>
                         </li>
                     </ul>
                 </div>
@@ -74,12 +74,12 @@
                 <input type="text" placeholder="输入密码" name="password" id="password">
             </div>
             <div class="outer">
-                <div class="filter-box"></div>
-                <span>
-                    滑动解锁
-                </span>
-                <div class="inner">&gt;&gt;</div>
-            </div>
+                    <div class="filter-box"></div>
+                    <span>
+                        滑动解锁
+                    </span>
+                    <div class="inner">&gt;&gt;</div>
+                </div>
             <div class="login-6">
                 点击立即注册，即表示您同意并愿意遵守 <span style="color: aqua;">Flyme服务协议</span> 和 <span style="color: aqua;">法律声明</span>
             </div>
@@ -129,8 +129,8 @@
 <script src="../assets/js/jigsaw.js"></script>
 <script>
     register.init('.register')
-</script>
-<script>
+</script> 
+ <script>
     jigsaw.init(document.getElementById('captcha'), function () {
         document.getElementById('msg').innerHTML = '注册成功！'
     })

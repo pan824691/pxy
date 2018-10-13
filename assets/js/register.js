@@ -38,6 +38,7 @@ var register = (function(){
                     }
                     ajax ('http://localhost:1212/pro/dist/assets/php/check_username.php', params);
                 }, false);
+               
         },
         checkUsername: function(data) {
             if(data.code == 200) {
@@ -95,22 +96,18 @@ $(function(){
     })
 })
 
-// 下拉菜单
-var $inpcycode = $('.inp-cycode')
 
-var $container = $('.container');
-var $bAll = $container.find('ul').find('li').find('b');
+
+
+
+// 注册下拉菜单样式
 $('.selectBox').find('i').on('click',function(){
    $('.container').show()
 })
 $('.container').find('ul').find('li').on('click',function(){
-   console.log('进来了')
-    var str = '';
-    for(var k = 0; k < $bAll.length; k++){
-       str += $bAll[k].value;
-    }
-    $inpcycode.innerHTML = str;
-    $container.hide();
+    $('.inp-cycode').val($(this).find("b").text())
+    $('.container').hide()
+   
 })
 
 
