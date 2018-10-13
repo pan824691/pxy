@@ -45,7 +45,6 @@ function renderDOM () {
 }
 // 提交订单
 function sbmitOrder() {
- 
     var $order = document.querySelector('.two-dimension')
     $order.style.display = 'block';
     var cartListStr = getItem('pxyCart')
