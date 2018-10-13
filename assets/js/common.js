@@ -10,17 +10,20 @@ $('#header').load('header.html',function () {
 
 
     // 二级菜单
-$('#nav').find('li').mouseenter(function () {
-    $(this).find('.item').fadeIn();
-    $(this).siblings('li').find('.item').fadeOut();
-    $(this).find('.joinus').fadeIn();
-    
+$('#nav').find('.liShow').mouseenter(function () {
+    $(this).find('.item').fadeIn(); // 下面的item显示
+    $(this).siblings('li').find('.item').fadeOut();// 不是它的隐藏
+    $(this).find('.joinus').slideDown(); // 二维码显示
+    $('#header').css({'background':'#fff','height':'300px'})
+    $('#header').siblings('li').css({'background':'','height':''})
 })
     $('#nav').mouseleave(function () {
         $(this).find('.item').fadeOut();
         $(this).find('.item').stop(true,true)
         $(this).find('.joinus').fadeOut();
         $(this).find('.joinus').stop(true,true);
+        $('#header').css({'background':'','height':''})
+    
     })
 })
 
