@@ -25,16 +25,36 @@
         </div> -->
        </div>
    </div>
-   <div class="cart min">
-       <table id="tb" border="1" class="table"></table>
-       <!--<input type="checkbox"/>-->
-       <i class="tote">总数：</i><span id="totalNum"></span>
-       <em class="totalPrice">总价：</em><span id="totalPrice"></span>
-       <button id="btn" class="btn btn-success" onclick = "sbmitOrder()">去支付</button>
+   <div class="cart">
+       <div class="min">
+        <table id="tb" border="1" class="table table-hover"></table>
+        <!--<input type="checkbox"/>-->
+        <div class="priceBox">
+         <i class="tote">总数：</i><span id="totalNum"></span>
+         <em class="totalPrice">总价：</em><span id="totalPrice"></span>
+         <button id="btn" class="btn btn-success" onclick = "sbmitOrder()">去支付</button>
+        </div>
+        <p class="p"></p>
+       </div>
+      
    </div>
    <div class=" two-dimension">
        <span class="iconfont">&#xe603;</span>
        <img src="../assets/img/wx-code_94c130c.jpg">
+   </div>
+   <div class="loginBox">
+    <div class="min">
+        <div class="notNanded">
+         <div class="imgBox">
+             <img src="../assets/img/1111111111.png">
+         </div>
+         <div class="buttonBox ">
+             <h4>您还没有登录！</h4>
+             <p>登录后可显示您账号中已加入的商品哦~</p>
+             <div><a href="http://localhost:8080/login.html"><button>去登陆</button></a></div>
+         </div>
+        </div>
+    </div>
    </div>
 
    <div id="footer">

@@ -2,15 +2,15 @@ renderDOM()
 function renderDOM () {
     var cartListStr = getItem('pxyCart')
     // 重置基础DOM结构
-    $('#tb').html('<tr class=".table-striped min">\n' +
-        '            <td>\n' +
+    $('#tb').html('<tr class=".table-striped min" >\n' +
+        '            <td style="width:80px; border-right:none;">\n' +
         '                <input type="checkbox" id="allCheck" checked/>全选\n' +
         '            </td>\n' +
-        '            <td>名称</td>\n' +
-        '            <td>图片</td>\n' +
-        '            <td>价格</td>\n' +
-        '            <td>数量</td>\n' +
-        '            <td>操作</td>\n' +
+        '            <td style="width:250px; border-right:none;">名称</td>\n' +
+        '            <td style="width:350px; border-right:none;">图片</td>\n' +
+        '            <td style="width:250px; border-right:none;">价格</td>\n' +
+        '            <td style="width:300px; border-right:none;">数量</td>\n' +
+        '            <td style="width:200px; ">操作</td>\n' +
         '        </tr>')
     if (cartListStr) {
         // 购物车有数据
@@ -25,7 +25,7 @@ function renderDOM () {
                 '                    <td><img src="'+item.imgUrl+'"  style="width: 60px"/></td>\n' +
                 '                    <td>'+item.price+'</td>\n' +
                 '                    <td>\n' +
-                '                        <input type="number" min="1" step="1" value="'+item.num+'" onchange="changeNum(event, '+index+')">\n' +
+                '                        <button id="leftBtn">-</button> <input type="number" min="1" step="1" value="'+item.num+'" onchange="changeNum(event, '+index+')" class="inp"><button id="rightBtn">+</button>\n' +
                 '                    </td>\n' +
                 '                    <td>\n' +
                 '                        <button  class="btn btn-danger"  onclick = "deleteItem('+index+')">删除</button>\n' +
@@ -137,8 +137,8 @@ function changeNum (event, index) {
 function countFn(){
     var selectListStr = getItem('selectlist')
     var selectList = JSON.parse(selectListStr);
-    var totalNum = 0;
-    var totalPrice = 0;
+    var totalNum = 0;  //设置总数默认0
+    var totalPrice = 0; // 设置总价默认0
     if(selectListStr) {
         selectList.map(function (item, index) {
             if(item.select == 1) {
@@ -182,7 +182,7 @@ function setItem (key, value){
 function closePopup(){
     var $order = document.querySelector('.two-dimension')
     var $span = $order.querySelector('.iconfont');
-    console.log($span)
+    
     $span.onclick = function(e){
         $order.style.display = 'none';
     }
@@ -190,7 +190,13 @@ function closePopup(){
 closePopup()
 
 
+
+// 判断用户名是否有登陆
 function judgeName(){
+    var $priceBox = document.querySelector('.priceBox')
+    var $table = document.querySelector('.table');
+    var $notNanded = document.querySelector('.loginBox');
+    console.log($notNanded)
     var $small = document.querySelector('.loginName');
     var url = location.search.slice(1);// 获取地址栏问号后面的内容
     function getParams(url){
@@ -205,12 +211,17 @@ function judgeName(){
     var obj = getParams(url);
 
     if(obj.username){  // 判断用户名是否存在    
-     
+       
         $small.innerHTML = obj.username;
         $('#boxSpan').find('.registerName').hide();
+        $priceBox.style.display = 'block';
+        $table.style.display = 'block';
+        $notNanded.style.display = 'none';
         
     } else{
-     
+        $priceBox.style.display = 'none';
+        $table.style.display = 'none';
+        $notNanded.style.display = 'block';
       $('.loginName').fadeIn();//登陆内容显示
       $('#boxSpan').find('.registerName').show();
     }
@@ -219,7 +230,36 @@ function judgeName(){
 judgeName()
 
 
-
+var getInput = (function () {
+    return {
+        init: function () {
+            this.$leftBtn = document.querySelector('#leftBtn');
+            this.$rightBtn = document.querySelector('#rightBtn');
+            console.log(this.$rightBtn)
+            this.$inp = document.querySelector('.inp');
+           
+            this.event();
+        },
+        event: function (e) {
+            var _this = this;
+            // 左边按钮点击事件
+            this.$leftBtn.onclick = function () {
+                console.log('左边')
+                if (_this.$inp.value > 1) {
+                    _this.$inp.value -= 1;
+                }
+            }
+            // 右边按钮点击事件
+            this.$rightBtn.onclick = function () {
+                console.log('右边')
+                _this.$inp.value = parseFloat(_this.$inp.value) + 1;
+            }
+            
+        }
+        
+    }
+}())
+getInput.init()
 
     
       
