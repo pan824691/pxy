@@ -54,11 +54,58 @@ bode{
     display: none;
     background: #fff;
     height: 50px;
+   position: relative;
     line-height: 50px;
     margin-top:-10px;
-  
+   
 }
-.loginBox{
+.priceBox span, .toteI{
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+}
+.toteI{
+    font-style: normal;
+}
+.notNanded-1{
+    width: 82%;
+    height: 350px;
+    background: #fff;
+    /* text-align: center; */
+    margin-top: 10px;
+   position: absolute;
+  }
+  .imgBox-1{
+      float: left;
+  }
+  .imgBox-1 img{
+      margin-left: 470px;
+      margin-top: 100px;
+  }
+  .buttonBox-1 {
+      float: right;
+      margin-right: 350px;
+      margin-top: 115px;
+  }
+  .buttonBox-1 h4{
+     color: #616161;
+     font-weight: 800;
+  }
+
+  .buttonBox-1 a{
+      width: 120px;
+      height: 35px;
+      line-height: 35px;
+      border: none;
+      color: #00c3f5;
+      border: 1px solid #00c3f5;
+      border-radius: 5px;
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      
+  }
+.loginBox, .goShopping{
     width: 100%;
     height: 420px;
     background: #eee;
@@ -100,6 +147,7 @@ bode{
 .buttonBox button{
     width: 120px;
     height: 35px;
+    
     border: none;
     background: #00c3f5;
     color: #fff;
@@ -110,7 +158,9 @@ bode{
     background: #fff;
     width: 100%;
     border: none;
+  
 }
+
 #leftBtn, #rightBtn{
     width: 20px;
     height: 25px;
@@ -120,25 +170,68 @@ bode{
     position: relative;
     left: 4px;
 }
+.emb{
+    position: relative;
+    
+    left:155px;
+    color: #9ea5ab;
+    font-style: normal;
+}
+
+.check{
+    /* margin-top: 100px; */
+    position: relative;
+    top:47px;
+    left: 26px;
+    width: 24px;
+    height: 20px;
+    z-index: 10;
+    /* background: red; */
+}
 .tote, .totalPrice{
     font-style: normal;
     font-size: 18px;
     padding-bottom: 20px;
 }
 .tote{
-    margin-left: 500px;
+    margin-left:5px;
+    font-size: 14px;
+    color: #9ea5ab;
+}
+.tote2{
+    font-style: normal;
+    margin-left: 5px;
+}
+.tote3{
+    font-style: normal;
+    color: #9ea5ab;
+    margin-left: 10px;
+    margin-top: -2px;
 }
 .totalPrice{
-    margin-left: 180px;
+    margin-left: 330px;
+    font-size: 14px;
+}
+.em{
+    position: relative;
+    top:28px;
+    left: 45px;
+    color: #9ea5ab;
+    font-style: normal;
+    /* background: red; */
+    z-index: 10;
 }
 #btn{
-    margin-left: 320px;
+   position: absolute;
+   top: 8px;
+   right: 55px;
 }
 .inp{
     width: 50px;
     height: 26px;
 }
-.two-dimension {
+
+.two-dimension, .hintBox {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -151,6 +244,63 @@ bode{
     text-align: center;
     display: none;
 }
+.hintBox-1{
+    width: 530px;
+    height: 250px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;  
+    text-align: center;
+    z-index:999;
+    border-radius: 4px;
+}
+.hintBox-2{
+    width: 100%;
+    height: 50px;
+    line-height:50px;
+    border-bottom: 1px solid #ccc;
+}
+.hintBox-2 span{
+    font-size: 18px;
+    font-weight: 800;
+}
+.hintBox-2 i{
+    float: right;
+    font-size:30px;
+    position: relative;
+    right: 20px;
+    color: #ccc;
+}
+.hintBox-1 p{
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    color: #aaa;
+}
+.hintBox-btn{
+    width: 100%;
+    height: 70px;
+}
+.hintBox-btn button{
+    border: none;
+    background: #eee;
+}
+.hintBox-btn a{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #eee;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 2px;
+    color: #aaa;
+}
+
 .two-dimension img{
     width: 200px;
     height: 200px;
