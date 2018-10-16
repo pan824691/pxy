@@ -71,7 +71,7 @@ function animation() {   // 动画函数
     }
     
 }
-
+// 置顶显示
 $(window).scroll(function () {
 // var $heightTop = $('#header').height();// 获取头部的高度
 if($(this).scrollTop() > 300){  // 如果浏览器的滚动高度大于底部的高度
@@ -81,6 +81,77 @@ if($(this).scrollTop() > 300){  // 如果浏览器的滚动高度大于底部的
 }
 })
 
+
+function countFn() {
+    // var $totalNum4 = $('#totalNum4')
+    var $totalNum4 = document.querySelector('#totalNum4');
+    console.log($totalNum4)
+    var selectListStr = getItem('selectlist')
+    var selectList = JSON.parse(selectListStr);
+    
+    var totalNum = 0; //设置总数默认0
+    if (selectList) {
+        selectList.map(function (item, index) {
+            
+            if (item.select == 1) {
+                console.log(item.select)
+                totalNum += item.num * 1;
+            }
+        })
+    } else {
+        totalNum = 0;
+    }
+    $('#totalNum5').html(totalNum);
+
+}
+countFn()
+
+
+function getItem(key) {
+    return localStorage.getItem(key)
+}
+
+function setItem(key, value) {
+    localStorage.setItem(key, JSON.stringify(value))
+}
+
+
+// 楼梯效果
+var activeindex = 0;  // 表示被选中的索引值
+$('#menu').find('li').not('.last').on('click',function () {  //。not('.last')不是last的元素
+    $(this).addClass('active').siblings().removeClass('active');
+    activeindex = $(this).index();
+    var $height = $('.cententBox').eq(activeindex).offset().top;
+    $('html,body').animate({
+        scrollTop:$height + 'px'
+    },200)
+})
+$('.last').on('click',function () {
+    $('html,body').animate({
+        scrollTop:0
+    },500)
+})
+
+var boxheight = $('#maxBox').height();
+$(window).scroll(function () {
+    var $height = $(this).scrollTop();// 获取页面的滚动条
+    if($height > boxheight -300){  // 页面的滚动条大于公共部分的高度的时候
+       
+        $('#menu').fadeOut() ;
+       
+    }else {
+    
+        $('#menu').fadeIn() ; 
+        
+    }
+    $('.cententBox').each(function (index,item) {
+        var $liheight = $(this).offset().top;// 元素本身相对页面到顶部的距离
+        if($height >= $liheight - 50){  //
+            activeindex = index;
+        }
+    })
+    $('#menu').find('li').eq(activeindex).addClass('active').siblings().removeClass('active');
+})
 
 
 

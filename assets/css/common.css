@@ -236,7 +236,7 @@
 }
 
 .footer-top-right h1 {
-    color: cornflowerblue;
+    color: #00c3f5;
     margin-top: 10px;
     /*font-size: 16px;*/
 }
@@ -244,7 +244,7 @@
 .footer-top-right h6 {
     width: 120px;
     height: 30px;
-    background: cadetblue;
+    background: #00c3f5;
     border-radius: 20px;
     color: #fff;
     text-align: center;
@@ -301,16 +301,25 @@
     font-size:26px;
     /*border-right: 1px solid #ccc;*/
 }
+.erweima{
+    width: 150px;
+    height: 150px;
+    position: relative;
+   top: -150px;
+    right:-240px; 
+    display: none;
+}
 .footer-div span .img1:hover i.iconfont{
     color: red;
 }
 .footer-div span .img2:hover b.iconfont{
     color: greenyellow;
 }
+
 .footer-div span .img3:hover em.iconfont{
     color: yellow;
 }
-.car i{
+.car span{
     width: 11px;
     height: 15px;
     text-align: center;

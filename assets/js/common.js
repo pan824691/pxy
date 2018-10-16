@@ -25,8 +25,45 @@ $('#nav').find('.liShow').mouseenter(function () {
         $('#header').css({'background':'','height':''})
     
     })
+
+    function countFn() {
+        // var $totalNum4 = $('#totalNum4')
+        var $totalNum4 = document.querySelector('#totalNum4');
+        console.log($totalNum4)
+        var selectListStr = getItem('selectlist')
+        var selectList = JSON.parse(selectListStr);
+        
+        var totalNum = 0; //设置总数默认0
+        if (selectList) {
+            selectList.map(function (item, index) {
+                
+                if (item.select == 1) {
+                    console.log(item.select)
+                    totalNum += item.num * 1;
+                }
+            })
+        } else {
+            totalNum = 0;
+        }
+        $('#totalNum4').html(totalNum);
+        console.log( $('#totalNum4'))
+    }
+    countFn()
+    
+    
+    function getItem(key) {
+        return localStorage.getItem(key)
+    }
+    
+    function setItem(key, value) {
+        localStorage.setItem(key, JSON.stringify(value))
+    }
+    
 })
 
+
+
+// 底部
 $('#footer').load('footer.html',function(){
 
     // 置顶效果
@@ -64,6 +101,30 @@ $('#footer').load('footer.html',function(){
             }
             
         }
+$('.img2').hover(function(){
+    $('.erweima').slideDown()
+})
+$('.img2').mouseleave(function(){
+    $('.erweima').hide()
+})
+
+
+
+
+
+
+
+
+
+
+
+
         
 
 })
+
+
+
+
+
+
