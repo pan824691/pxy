@@ -104,9 +104,12 @@
     border: none;
     width: 50px;
     height: 30px;
-    background: beige;
-    color: blue;
+    background: rgba(200,200,200,0);
+    color: #ccc;
     border-radius: 10px;
+}
+.centent-2 button:hover{
+    color: #00c3f5;
 }
 .centent-bottom{
     width: 100%;

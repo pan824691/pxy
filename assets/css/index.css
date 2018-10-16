@@ -316,43 +316,86 @@
     text-align: center;
 
 }
-
+.li-img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right:120px;
+    top:-90px;
+    /* display: none; */
+}
 
 .top{
-    width: 80px;
+    width: 180px;
     height: 100px;
     /* background: #ccc; */
     position: fixed;
     bottom: 130px;
     right: -30px;
     /* color: #fff; */
+  
     text-align: center;
     line-height: 50px;
     display: none;
 }
 .top li{
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
     background: #ccc;
     color: #fff;
     margin-top: 2px;
-    text-align: center;
-    line-height: 50px;
+    text-align: left;
+    line-height: 40px;
+    margin-left: 10px;
+    position: relative;
+    right: -89px;
+    transition: 0.6s;
+}
+.li3:hover{
+    right: -18px;
+    background: #aaaaaa;
 }
 
-.top li.iconfont{
+.li1:hover{
+    right: -18px;
+    background: #aaaaaa;    
+}
+.li1:hover span{
+    right:15px;
+    top:14px;
+}
+/* .li3:hover{
+   right: 10px; 
+   background: red;
+} */
+.top em{
+    font-size: 12px;
+    font-style: normal;
+    margin-left: 10px;
+    margin-top: 11px;
+    line-height: 40px;
+} 
+.top p{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.top li a.iconfont{
     font-size: 30px;
+    margin-left: 10px;
 }
 
-
-.top li img{
+.top li b{
+    margin-left: 10px;
+}
+.li-carimg{
     width: 35px;
     height: 35px;
     margin-top:5px;
+    margin-left: 10px;
+    float: left;
 }
-.top li.iconfont{
-    font-size: 30px;
-}
+
 .top span{
     width: 11px;
     height: 15px;
@@ -365,11 +408,15 @@
     display: inline-block;
     position: absolute;
     top:10px;
-    right:37px;
+    right:75px;
     font-size: 10px;
 
 }
-
+.top li a{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+}
 
 .menu{
     position: fixed;

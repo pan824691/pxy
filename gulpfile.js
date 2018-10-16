@@ -1,18 +1,4 @@
-// var gulp = require('gulp')
-//
-// gulp.task('copy-views', function () {
-//     gulp.src('views/**/*')                    // 选中views文件夹下的所有文件包括子文件中的
-//         .pipe(                                        // 管道思想，上一级的输出作为下一级的输入
-//             gulp.dest('dist/views')          // 将上诉命令的结果放置dist文件夹中，没有dist文件夹会自动创建
-//         )
-// })
-//
-// gulp.task('copy-assets', function () {
-//     gulp.src('assets/**/*')                     // 选中views文件夹下的所有文件包括子文件中的
-//         .pipe(                                         // 管道思想，上一级的输出作为下一级的输入
-//             gulp.dest('dist/assets')         // 将上诉命令的结果放置dist文件夹中，没有dist文件夹会自动创建
-//         )
-// })
+
 
 var gulp = require('gulp')   // 引入gulp
 var sass = require('gulp-sass') // 将scss文件转换成为css文件
@@ -20,7 +6,7 @@ var cleanCss = require('gulp-clean-css') // 压缩css
 var rename = require('gulp-rename') // 重命名
 var uglify = require('gulp-uglify') // 压缩js
 var connect = require('gulp-connect') // 服务器
-var babel = require('gulp-babel')
+var babel = require('gulp-babel');
 
 // 复制assets文件夹下的所有东西至dist/assets
 gulp.task('copy-assets', function () {
