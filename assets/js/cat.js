@@ -34,12 +34,12 @@ function renderDOM() {
                 '                    </td style=" border:none;line-height:150px;">\n' +
                 '                    <td style=" border:none;line-height:150px;">' + item.name + '</td>\n' +
                 '                    <td style=" border:none;line-height:150px;"><img src="' + item.imgUrl + '"  style="width: 60px"/></td>\n' +
-                '                    <td style=" border:none;line-height:150px;">'+'￥'+item.price+'</td>\n' +
+                '                    <td style=" border:none;line-height:150px;">' + '￥' + item.price + '</td>\n' +
                 '                    <td style=" border:none;line-height:150px;">\n' +
                 '                        <input type="number" min="1" step="1" value="' + item.num + '" onchange="changeNum(event, ' + index + ')" class="inp">\n' +
                 '                    </td>\n' +
                 '                    <td style=" border:none;line-height:150px; color:red">\n' +
-                '                       '+'￥'+item.price*item.num + ' \n' +
+                '                       ' + '￥' + item.price * item.num + ' \n' +
                 '                    </td>\n' +
                 '                    <td style=" border:none;line-height:150px;">\n' +
                 '                        <button id="deteleBtn" class="btn btn-danger"  >删除</button>\n' +
@@ -149,7 +149,7 @@ function countFn() {
         selectList.map(function (item, index) {
             if (item.select == 1) {
                 totalNum += item.num * 1;
-                totalPrice += item.price * item.num;              
+                totalPrice += item.price * item.num;
             }
 
         })
@@ -176,6 +176,37 @@ function deleteItem(index) {
 }
 
 
+// 提示删除函数
+// var $tableDetele = document.querySelectorAll('table')[0];
+// var $hintBox = document.querySelector('.hintBox');
+// this.$hintBox2 = document.querySelector('.hintBox-2');
+// this.$hintBoxI = $hintBox2.querySelector('i');
+// var $aDelete = document.querySelector('.aDelete');
+// var $bDelete = document.querySelector('.bDelete');
+// $tableDetele.onclick = function (ev) {
+//     console.log($hintBox)
+//     ev = ev || window.event;
+//     var target = ev.target || ev.srcElement;
+//     if (target.nodeName == 'BUTTON') { //判断点击按钮才可以触发                         
+//         $hintBox.style.display = 'block';
+//         $aDelete.addEventListener('click', function () {
+//             target.parentNode.parentNode.parentNode.removeChild(target.parentNode.parentNode)
+//             _this.$hintBox.style.display = 'none';
+//             deleteItem()
+//         })
+
+//         $bDelete.addEventListener('click', function () {
+//             console.log('aaaa')
+//             $hintBox.style.display = 'none';
+//         })
+//         $hintBoxI.addEventListener('click', function () {
+//             console.log('bbbb')
+//             $hintBox.style.display = 'none';
+//         })
+//     }
+// }
+
+
 
 //删除提示函数
 var deletePoint = (function () {
@@ -183,34 +214,37 @@ var deletePoint = (function () {
         init: function () {
             this.$tableDetele = document.querySelectorAll('table')[0];
             this.$hintBox = document.querySelector('.hintBox');
+            this.$hintBox2 = document.querySelector('.hintBox-2');
+           
+            this.$hintBoxI = this.$hintBox2.querySelector('i');
             this.$aDelete = document.querySelector('.aDelete');
             this.$bDelete = document.querySelector('.bDelete');
-            // this.$hintBox2 = document.querySelector('.hintBox-2');
-            // this.$hintBoxI = $hintBox2.querySelector('i');
-           this.event();
+          
+            console.log(this.$bDelete)
+            this.event();
         },
         event: function () {
             var _this = this;
-            this.$tableDetele.onclick = function(ev){
-                // console.log('aaa')
+            this.$tableDetele.onclick = function (ev) {
                 ev = ev || window.event;
                 var target = ev.target || ev.srcElement;
-                if(target.nodeName == 'BUTTON'){ //判断点击按钮才可以触发    
-                    console.log('点中了')            
-                    _this.$hintBox.style.display = 'block'; 
-                    _this.$aDelete.addEventListener('click',function(){
+                if (target.nodeName == 'BUTTON') { //判断点击按钮才可以触发    
+                    console.log('aaa')
+                    _this.$hintBox.style.display = 'block';
+                    _this.$aDelete.addEventListener('click', function () {
                         target.parentNode.parentNode.parentNode.removeChild(target.parentNode.parentNode)
-                        _this.$hintBox.style.display = 'none'; 
-                        deleteItem ()
-                    })  
-                   this.$bDelete.addEventListener('click',function(){
-                        _this.$hintBox.style.display = 'none'; 
-                    }) 
-                    this.$hintBoxI.addEventListener('click',function(){
-                        _this.$hintBox.style.display = 'none'; 
-                    })            
+                        _this.$hintBox.style.display = 'none';
+                        deleteItem()
+                    })
+
+                    _this.$bDelete.addEventListener('click', function () {               
+                        _this.$hintBox.style.display = 'none';
+                    })
+                    _this.$hintBoxI.addEventListener('click', function () {
+                        _this.$hintBox.style.display = 'none';
+                    })
                 }
-            } 
+            }
         }
     }
 }())
@@ -280,12 +314,12 @@ function judgeName() {
         $priceBox.style.display = 'none';
         $table.style.display = 'none';
         $notNanded.style.display = 'block';
-        $('.cart').css('display','none');
+        $('.cart').css('display', 'none');
         $('.loginName').fadeIn(); //登陆内容显示
         $('#boxSpan').find('.registerName').show();
         $('.withdraw').hide()
     }
-   
+
 }
 
 judgeName()
