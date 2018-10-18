@@ -132,7 +132,7 @@ $rightBtn.click(function(){
    $column.animate({'left':'-500px'});
 })
 $leftBtn.click(function(){
-   $column.animate({'left':'500px'});
+   $column.animate({'left':'0'});
 })
 
 
